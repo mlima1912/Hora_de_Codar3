@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http - http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>javascript-1</title>
+        <script>
+
+// Solicita o número N ao usuário
+var N = parseInt(prompt("Digite um número N:"));
+
+// Loop para percorrer todas as tabuadas de 1 a N
+for (var i = 1; i <= N; i++) {
+   alert("Tabuada do", i + ":");
+  
+  // Loop para imprimir a tabuada
+  for (var j = 1; j <= 10; j++) {
+    var resultado = i * j;
+    alert(i + " x " + j + " = " + resultado);
+  }
+  
+  alert(""); // Adiciona uma linha em branco entre as tabuadas
+}
+
+</script>
+</head>
+<body>
+</body>

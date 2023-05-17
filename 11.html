@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http - http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>javascript-1</title>
+        <script>
+
+// Define as variáveis para contar os valores dentro e fora do intervalo
+var dentroIntervalo = 0;
+var foraIntervalo = 0;
+
+// Loop para solicitar os 10 valores ao usuário
+for (var i = 1; i <= 10; i++) {
+  // Solicita um valor ao usuário
+  var valor = parseInt(prompt("Digite o valor #" + i + ":"));
+
+  // Verifica se o valor está dentro do intervalo
+  if (valor >= 24 && valor <= 42) {
+    dentroIntervalo++;
+  } else {
+    foraIntervalo++;
+  }
+}
+
+// Imprime os resultados
+alert("Valores dentro do intervalo: " + dentroIntervalo);
+alert("Valores fora do intervalo: " + foraIntervalo);
+
+
+
+</script>
+</head>
+<body>
+</body>
